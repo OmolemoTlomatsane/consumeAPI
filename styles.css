@@ -63,7 +63,28 @@ h1 {
     height: auto;
 }
 
+.mealInformation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mealInformation img {
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+}
 
-
-
+iframe{
+    width: 100%;
+    height: 315px;
+    margin-top: 20px;
+}
+.textInfo{
+    text-align: center;
+}
 
